@@ -35,6 +35,14 @@ public class Employee {
 		return department;
 	}
 
+	public Employee(Integer id, String name, String dob, String department) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.dob = dob;
+		this.department = department;
+	}
+
 	public void setDepartment(String department) {
 		this.department = department;
 	}
